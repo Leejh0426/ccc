@@ -1,0 +1,70 @@
+configure build output path
+/project/linuxSrc/out
+move kernel source
+make defconfig
+make[1]: Entering directory '/project/linuxSrc/out'
+  GEN     Makefile
+#
+# No change to .config
+#
+make[1]: Leaving directory '/project/linuxSrc/out'
+kernel build
+make[1]: Entering directory '/project/linuxSrc/out'
+  GEN     Makefile
+  CALL    /project/linuxSrc/linux/scripts/checksyscalls.sh
+init/.do_mounts.o.cmd:1638: warning: NUL character seen; rest of line ignored
+init/.init_task.o.cmd:1346: warning: NUL character seen; rest of line ignored
+init/.initramfs.o.cmd:1273: warning: NUL character seen; rest of line ignored
+init/.version.o.cmd:680: warning: NUL character seen; rest of line ignored
+arch/arm64/mm/.context.o.cmd:1132: warning: NUL character seen; rest of line ignored
+arch/arm64/mm/.copypage.o.cmd:1126: warning: NUL character seen; rest of line ignored
+arch/arm64/kernel/.fpsimd.o.cmd:1148: warning: NUL character seen; rest of line ignored
+arch/arm64/mm/.flush.o.cmd:1134: warning: NUL character seen; rest of line ignored
+arch/arm64/mm/.init.o.cmd:1489: warning: NUL character seen; rest of line ignored
+arch/arm64/mm/.mmap.o.cmd:980: warning: NUL character seen; rest of line ignored
+arch/arm64/mm/.mmu.o.cmd:1301: warning: NUL character seen; rest of line ignored
+kernel/.cpu.o.cmd:1374: warning: NUL character seen; rest of line ignored
+arch/arm64/kernel/.process.o.cmd:1364: warning: NUL character seen; rest of line ignored
+kernel/.exit.o.cmd:1510: warning: NUL character seen; rest of line ignored
+arch/arm64/kernel/.time.o.cmd:1144: warning: NUL character seen; rest of line ignored
+kernel/.panic.o.cmd:1259: warning: NUL character seen; rest of line ignored
+kernel/.resource.o.cmd:1082: warning: NUL character seen; rest of line ignored
+kernel/.softirq.o.cmd:1274: warning: NUL character seen; rest of line ignored
+fs/fat/.misc.o.cmd:1185: warning: NUL character seen; rest of line ignored
+fs/nfs/.client.o.cmd:1592: warning: NUL character seen; rest of line ignored
+lib/.base64.o.cmd:217: warning: NUL character seen; rest of line ignored
+lib/.errseq.o.cmd:194: warning: NUL character seen; rest of line ignored
+lib/.generic-radix-tree.o.cmd:772: warning: NUL character seen; rest of line ignored
+sound/core/.device.o.cmd:982: warning: NUL character seen; rest of line ignored
+lib/.hexdump.o.cmd:213: warning: NUL character seen; rest of line ignored
+sound/core/.hwdep.o.cmd:1022: warning: NUL character seen; rest of line ignored
+sound/core/.info.o.cmd:1075: warning: NUL character seen; rest of line ignored
+sound/core/.info_oss.o.cmd:999: warning: NUL character seen; rest of line ignored
+sound/core/.jack.o.cmd:1074: warning: NUL character seen; rest of line ignored
+sound/core/.misc.o.cmd:1155: warning: NUL character seen; rest of line ignored
+lib/.once.o.cmd:928: warning: NUL character seen; rest of line ignored
+sound/core/.sound_oss.o.cmd:995: warning: NUL character seen; rest of line ignored
+sound/core/.vmaster.o.cmd:990: warning: NUL character seen; rest of line ignored
+lib/.refcount.o.cmd:452: warning: NUL character seen; rest of line ignored
+lib/.string_helpers.o.cmd:1044: warning: NUL character seen; rest of line ignored
+lib/.usercopy.o.cmd:709: warning: NUL character seen; rest of line ignored
+  LD [M]  sound/core/snd.o
+sound/core/control.o: file not recognized: file format not recognized
+lib/math/.div64.o.cmd:150: warning: NUL character seen; rest of line ignored
+make[4]: *** [/project/linuxSrc/linux/scripts/Makefile.build:460: sound/core/snd.o] Error 1
+lib/math/.gcd.o.cmd:209: warning: NUL character seen; rest of line ignored
+make[3]: *** [/project/linuxSrc/linux/scripts/Makefile.build:500: sound/core] Error 2
+lib/math/.int_pow.o.cmd:78: warning: NUL character seen; rest of line ignored
+make[2]: *** [/project/linuxSrc/linux/scripts/Makefile.build:500: sound] Error 2
+make[2]: *** Waiting for unfinished jobs....
+lib/math/.int_sqrt.o.cmd:147: warning: NUL character seen; rest of line ignored
+lib/math/.lcm.o.cmd:72: warning: NUL character seen; rest of line ignored
+lib/math/.rational.o.cmd:929: warning: NUL character seen; rest of line ignored
+lib/math/.reciprocal_div.o.cmd:194: warning: NUL character seen; rest of line ignored
+drivers/gpio/.gpio-max730x.o.cmd:1072: warning: NUL character seen; rest of line ignored
+drivers/pwm/.core.o.cmd:1307: warning: NUL character seen; rest of line ignored
+drivers/net/wireless/marvell/mwifiex/.join.o.cmd:1618: warning: NUL character seen; rest of line ignored
+drivers/net/wireless/marvell/mwifiex/.sta_ioctl.o.cmd:1618: warning: NUL character seen; rest of line ignored
+make[1]: *** [/project/linuxSrc/linux/Makefile:2015: .] Error 2
+make[1]: Leaving directory '/project/linuxSrc/out'
+make: *** [Makefile:238: __sub-make] Error 2
