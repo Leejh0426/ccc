@@ -1,0 +1,6 @@
+Stats: 
+
+MAXIMUMS
+Acceleration in x: 0 at: Acceleration in y: 0 at: Acceleration in z: 0 at: Rate of rotation in x: 0 at: Rate of rotation in y: 0 at: Rate of rotation in z: 0 at: 
+MINIMUMS
+Acceleration in x: 0 at: Acceleration in y: 0 at: Acceleration in z: 0 at: Rate of rotation in x: 0 at: Rate of rotation in y: 0 at: Rate of rotation in z: 0 at: 
